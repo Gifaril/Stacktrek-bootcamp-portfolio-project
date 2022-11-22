@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url('pictures/b5.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    color:white;
+    font-size: 70px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: palevioletred;   
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px  25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+nav ul li a:hover{
+    color:palevioletred;
+    transition: 4s;
+}
+.btn{
+    background-color: palevioletred;
+    color:whitesmoke;
+    text-decoration: double;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 70%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 90px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+h4{
+    color: rgba(141, 33, 74, 0.8);
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width:385px;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid palevioletred;
+    outline: none;
+    border-radius: 30px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    background-color:palevioletred;
+    color:white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 5px;
+    right: 5px;
+}
+.feature-img{
+    height: 80%;
+    position: absolute;
+    bottom: 3px;
+    right: 175px;
+}
+.social-links i{
+    font-size: 50px;
+    text-align:end;
+    color:palevioletred; 
+    right: 5px;
+    margin: 50px;
+}
+.social-links {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20%;
+}
+/*ABOUT SECTION*/
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;  
+}
+.about img{
+    height: auto;
+    width: 400px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;  
+}
+button{
+    background-color:palevioletred;
+    color: white;
+    text-decoration:none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
+/*....SERVICES....*/
+.service{
+    background:#101010;
+    width: 100%;
+    padding: 100px 0px;   
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:#191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:palevioletred; 
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color:palevioletred;
+    color: white;
+    text-decoration:none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
+
+/*....PROJECT....*/
+
+
+
+
+
+/*....CONTACT ME....*/
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color:white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px; 
+}
+.contact-me .button-two{
+    background-color:palevioletred;
+    color: white;
+    text-decoration:none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid palevioletred;
+    cursor: pointer;
+}
